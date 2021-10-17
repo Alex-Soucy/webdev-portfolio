@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #ffff;
+    font-family: Helvetica, Arial, sans-serif;       
+}
+
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: flex;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-image: url("../assets/images/snowy\ mountains.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+header nav {
+    margin: auto;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color: #ffff;
+    text-decoration: underline overline #ffff;
+}
+
+header nav ul li a:hover {
+    background: #ffff;
+    color: #87CEEB;
+    border-radius: 20px;
+}
+
+
